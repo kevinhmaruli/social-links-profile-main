@@ -21,8 +21,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Social links solution](https://github.com/kevinhmaruli/social-links-profile-main?tab=readme-ov-file#my-process)
+- Live Site URL: [Live Site](https://social-links-profile-main-ashy.vercel.app/)
 
 ## My process
 
