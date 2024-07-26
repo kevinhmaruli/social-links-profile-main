@@ -1,0 +1,113 @@
+@font-face {
+    font-family: 'interregular';
+    src: url('assets/fonts/inter-variablefont_slntwght-webfont.woff2') format('woff2'),
+         url('assets/fonts/inter-variablefont_slntwght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --Green: hsl(75, 94%, 57%);
+    --White: hsl(0, 0%, 100%);
+    --Grey: hsl(0, 0%, 20%);
+    --Dark-grey: hsl(0, 0%, 12%);
+    --Off-black: hsl(0, 0%, 8%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.center-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+body {
+    background-color: var(--Off-black);
+    height: 100vh;
+}
+
+main {
+    background-color: var(--Dark-grey);
+    border-radius: 12px;
+    width: 384px;
+    padding: 40px;
+    gap: 24px;
+}
+
+img {
+    width: 88px;
+    height: 88px;
+    border-radius: 100%;
+}
+
+header {
+    gap: 4px;
+}
+
+h1 {
+    color: var(--White);
+    font-family: 'interregular';
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+}
+
+span {
+    color: var(--Green);
+    font-family: 'interregular';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 150%;
+}
+
+p {
+    color: white;
+    font-family: 'interregular';
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+}
+
+nav {
+    width: 100%;
+    gap: 16px;
+    align-items: flex-start;
+}
+
+a {
+    display: block;
+    width: 100%;
+    text-align: center;
+    background-color: var(--Grey);
+    padding: 12px;
+    color: var(--White);
+    text-decoration: none;
+    border-radius: 8px;
+    font-family: 'interregular';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 150%;
+}
+
+a:hover {
+    background-color: var(--Green);
+    color: var(--Grey);
+    font-family: 'interregular';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 150%;
+}
+
+@media screen and (max-width: 375px) {
+    main {
+        width: 327px;
+        padding: 24px;
+    }
+}
